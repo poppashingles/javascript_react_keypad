@@ -1,0 +1,25 @@
+{
+  "name": "vending-machine-front-end",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "mocha": "^3.1.2",
+    "protractor": "^4.0.10",
+    "webdriver-manager": "^10.2.7"
+
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver": "webdriver-manager start",
+    "protractor": "protractor conf.js",
+    "test": "mocha tests/unit/vending_machine_spec.js"
+  }
+}
