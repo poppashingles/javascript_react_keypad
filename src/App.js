@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './App.css';
 
-import { Keypad } from './container/keypad.jsx'
+import { VendingMachine } from './container/vending_machine.jsx'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Keypad />
+        <VendingMachine />
       </div>
     );
   }
