@@ -4,7 +4,7 @@ export class Screen extends React.Component {
   render() {
     return (
       <div>
-        <input id="screen"></input>
+        <input id="screen" placeholder="Please select an option"></input>
       </div>
     )
   }
