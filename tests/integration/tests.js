@@ -21,4 +21,10 @@ describe('keypad functionality', function() {
     expect(getCButton.isDisplayed()).to.eventually.be.true;
   });
 
+  it('should update the screen when a selection is made to show the product name and price', function() {
+    screen = element(by.css('#screen'));
+    element(by.css('#get-a-button')).click();
+    expect(screen.getAttribute('innerText')).to.eventually.contain('Sprite');
+  });
+
 });
