@@ -1,6 +1,19 @@
+<h1>A React front end application for a vending machine</h1>
+
 This project is a second part to an overall Vending Machine application, a react front-end built to plug in to the back-end logic built in Java at https://github.com/poppashingles/vending-machine-java
 
 It pulls in data from a custom JSON API and uses it within the emulated vending machine keypad.
+
+
+<h1>Improvements to be made in the future</h1>
+
+- Make the service engineer functions available.
+- Further testing would be needed once any additional functionality becomes added.
+- A larger product range is required.
+- Very simple graphically though this would not be a priority.
+
+
+<h1>Usage</h1>
 
 To run: 
 
