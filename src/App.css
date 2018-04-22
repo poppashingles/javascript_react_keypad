@@ -9,6 +9,8 @@ button {
 }
 
 #screen {
-  margin: 20px 5px 20px 5px;
+  width: 130px;
+  margin: 20px 5px 20px 522px;
   padding: 10px 50px 10px 50px;
+  border: 2px solid black;
 }
