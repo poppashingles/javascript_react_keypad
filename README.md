@@ -1,6 +1,23 @@
-A work in progress app to display a basic keypad for a vending machine
+This project is a second part to an overall Vending Machine application, a react front-end built to plug in to the back-end logic built in Java at https://github.com/poppashingles/vending-machine-java
 
-## React information below ##
+It pulls in data from a custom JSON API and uses it within the emulated vending machine keypad.
+
+To run: 
+
+- clone the repository
+- run npm install in the project directory
+- npm start to begin the server on localhost port 3000
+
+
+To perform the tests:
+
+- npm webdriver-update to bring the webdriver up to the latest version
+- npm run webdriver to begin the testing server
+- npm run protractor to run through the integration tests with chai
+
+
+
+## Generic react information below ##
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
